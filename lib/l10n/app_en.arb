@@ -1,0 +1,20 @@
+{
+  "scan": "Scan",
+  "history": "History",
+  "scan_receipt": "Scan Receipt",
+  "imageDetails": "Image Detail",
+  "close": "Close",
+  "noDataHistory": "You do not have any image scan history.",
+  "changeLanguage": "Change Language",
+  "changeTheme": "Change Theme",
+  "scanningDocument": "Scanning Your Documents...",
+  "errorScanning": "An error occurred while scanning.",
+  "photoNotClear": "The photo is not clear. Please try again.",
+  "savedSuccessfully": "Scanned receipt saved and added to gallery.",
+  "saveFailed": "Scanned receipt saved, but failed to add to gallery.",
+  "cameraPermissionTitle": "Camera Permission Required",
+  "cameraPermissionMessage": "Camera access is required to scan the receipt. Please enable it from settings.",
+  "cancel": "Cancel",
+  "openSettings": "Open Settings",
+   "settings":"Settings"
+}

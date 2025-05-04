@@ -1,0 +1,21 @@
+{
+  "scan": "Tara",
+  "history": "Geçmiş",
+  "scan_receipt": "Fişi Tara",
+  "imageDetails": "Resim Detayı",
+  "close": "Kapat",
+  "noDataHistory": "Resim tarama geçmişiniz bulunmamaktadır.",
+  "changeLanguage": "Dili Değiştir",
+  "changeTheme": "Temayı Değiştir",
+  "scanningDocument": "Belgelerinizi Tarıyorsunuz...",
+  "errorScanning": "Tarama sırasında hata oluştu.",
+  "photoNotClear": "Fotoğraf net değil. Lütfen tekrar deneyin.",
+  "savedSuccessfully": "Taranmış fiş kaydedildi ve galeriye eklendi.",
+  "saveFailed": "Taranmış fiş kaydedildi, ancak galeriye eklenemedi.",
+  "cameraPermissionTitle": "Kamera İzni Gerekli",
+  "cameraPermissionMessage": "Fişi taramak için kamera izni gerekli. Lütfen ayarlardan izni etkinleştirin.",
+  "cancel": "Vazgeç",
+  "openSettings": "Ayarları Aç",
+  "settings":"Ayarlar"
+
+}
