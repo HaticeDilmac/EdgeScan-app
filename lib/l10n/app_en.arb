@@ -1,7 +1,7 @@
 {
   "scan": "Scan",
   "history": "History",
-  "scan_receipt": "Scan Receipt",
+  "scan_receipt": "Add New Receipt",
   "imageDetails": "Image Detail",
   "close": "Close",
   "noDataHistory": "You do not have any image scan history.",
