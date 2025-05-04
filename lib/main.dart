@@ -1,4 +1,5 @@
 import 'package:edge_scan/providers/receipt_provider.dart';
+import 'package:edge_scan/providers/tutorial_provider.dart';
 import 'package:edge_scan/screens/menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -22,6 +23,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
         ChangeNotifierProvider(create: (_) => ReceiptProvider()),
         ChangeNotifierProvider(create: (_) => HistoryProvider()),
+        ChangeNotifierProvider(create: (_) => TutorialProvider()),
       ],
       child: ResponsiveSizer(
         builder: (context, orientation, deviceType) {

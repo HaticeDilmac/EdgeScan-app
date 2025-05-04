@@ -94,7 +94,7 @@ class ThemeProvider with ChangeNotifier {
         : ThemeData.light().copyWith(
           hoverColor: AppColors.lightBlue,
           scaffoldBackgroundColor: Colors.white,
-          cardColor: const Color.fromARGB(255, 229, 228, 228),
+          cardColor: const Color.fromARGB(255, 243, 243, 243),
           canvasColor: AppColors.lightGrey,
           primaryColor: AppColors.darkBlue,
           navigationBarTheme: const NavigationBarThemeData(

@@ -16,5 +16,10 @@
   "cameraPermissionMessage": "Camera access is required to scan the receipt. Please enable it from settings.",
   "cancel": "Cancel",
   "openSettings": "Open Settings",
-   "settings":"Settings"
+   "settings":"Settings",
+    "skip":"Skip",
+      "scanTab": "Tap this tab to start scanning your receipts.",   
+  "historyTab": "Tap this tab to view your previously scanned receipts.",   
+  "menuButton": "Tap here to access the settings menu.You can change the app language and app theme from here.",   
+  "scanButton": "Tap here to add and scan your receipt."   
 }

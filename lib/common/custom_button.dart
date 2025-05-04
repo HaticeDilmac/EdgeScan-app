@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:edge_scan/utils/appColors.dart';
 import 'package:edge_scan/utils/dimensions.dart';
 import 'package:flutter/material.dart';

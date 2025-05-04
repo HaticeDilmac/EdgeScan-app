@@ -16,6 +16,10 @@
   "cameraPermissionMessage": "Fişi taramak için kamera izni gerekli. Lütfen ayarlardan izni etkinleştirin.",
   "cancel": "Vazgeç",
   "openSettings": "Ayarları Aç",
-  "settings":"Ayarlar"
-
+  "settings":"Ayarlar",
+  "skip":"Atla",
+   "scanTab": "Fişlerinizi taramak için bu sekmeye tıklayın.",   
+  "historyTab": "Daha önce taradığınız fişleri görmek için bu sekmeye tıklayın.",   
+  "menuButton": "Ayarlar menüsüne ulaşmak için buraya tıklayın.Buradan uygulama dilini ve uygulama temasını değiştirebilirsiniz.",  
+  "scanButton": "Yeni fiş eklemek için bu butona tıklayın."  
 }
