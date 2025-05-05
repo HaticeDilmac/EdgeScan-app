@@ -45,8 +45,9 @@ flutter run
 # Screenshots
 <img width="280" alt="calculator" src="https://github.com/user-attachments/assets/d7c3021f-5ce3-4b51-ac85-e28239e9222a">    
 <img width="280" alt="calculator" src="https://github.com/user-attachments/assets/a359c56f-9ee4-4268-a2a4-c8d3cfdc31b1">    
-<img width="280" alt="calculator" src="https://github.com/user-attachments/assets/521a6435-6445-4b76-9fc3-9a78f3ca0084">    
+<img width="280" alt="calculator" src="https://github.com/user-attachments/assets/521a6435-6445-4b76-9fc3-9a78f3ca0084">
+<img width="280" alt="calculator" src="https://github.com/user-attachments/assets/8616d411-e9cf-4b2b-a0ad-22540471ad27"> 
 <img width="280" alt="calculator" src="https://github.com/user-attachments/assets/23c65243-f5f6-4500-a0cd-ed6fb5812942">
 <img width="280" alt="calculator" src="https://github.com/user-attachments/assets/306e21ae-77ec-4c13-80d5-872f4a17ed4f">    
 <img width="280" alt="calculator" src="https://github.com/user-attachments/assets/025b7927-672d-4a27-bac1-d54bc888df10">
-<img width="280" alt="calculator" src="https://github.com/user-attachments/assets/8616d411-e9cf-4b2b-a0ad-22540471ad27">    
+   
