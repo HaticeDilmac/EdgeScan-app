@@ -1,9 +1,12 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'dart:io';
+import 'dart:typed_data';
 import 'package:edge_scan/common/custom_button.dart';
 import 'package:edge_scan/providers/history_provider.dart';
 import 'package:edge_scan/utils/dimensions.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_image_gallery_saver/flutter_image_gallery_saver.dart';
 // import 'package:gallery_saver/gallery_saver.dart';
 import 'package:image/image.dart' as img;
 import 'package:cunning_document_scanner/cunning_document_scanner.dart';
@@ -40,11 +43,17 @@ class ReceiptProvider extends ChangeNotifier {
         _showPermissionDialog(context);
       }
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text("${AppLocalizations.of(context)!.errorScanning}: $e"),
-        ),
-      );
+      if (kDebugMode) {
+        print(e);
+      }
+    }
+  }
+
+  Future<void> requestStoragePermission() async {
+    if (await Permission.photos.request().isGranted ||
+        await Permission.storage.request().isGranted) {
+    } else {
+      openAppSettings();
     }
   }
 
@@ -73,18 +82,16 @@ class ReceiptProvider extends ChangeNotifier {
       );
       await historyProvider.saveHistory(imagePath); //save history list
 
-      //save to phonegalerrry
-      // final success = await GallerySaver.saveImage(_scannedImagePath!);
-      // if (success != null && success) {
-      //   ScaffoldMessenger.of(context).showSnackBar(
-      //     SnackBar(
-      //       content: Text(AppLocalizations.of(context)!.savedSuccessfully),
-      //     ),
-      //   );
-      // } else {
-      //   ScaffoldMessenger.of(context).showSnackBar(
-      //     SnackBar(content: Text(AppLocalizations.of(context)!.saveFailed)),
-      //   );
+      await requestStoragePermission(); //gallerry permission
+      final file = File(_scannedImagePath!);
+      final Uint8List imageBytes = await file.readAsBytes();
+      await FlutterImageGallerySaver.saveImage(imageBytes); //save galleery
+      // user show message
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(AppLocalizations.of(context)!.savedSuccessfully),
+        ),
+      );
     }
   }
 
