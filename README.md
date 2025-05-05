@@ -1,4 +1,4 @@
-# Edge Scan
+![Screenshot_1746402118](https://github.com/user-attachments/assets/e370954e-39e1-4710-822d-91a683ca220e)# Edge Scan
 
 Edge Scan is a mobile application built with Flutter that allows users to scan receipt images, save scanned data locally, and view the scan history. It also features an interactive tutorial for first-time users.
 
@@ -40,3 +40,4 @@ flutter run
 
 # Screenshots
 <img width="280" alt="calculator" src="https://github.com/user-attachments/assets/d7c3021f-5ce3-4b51-ac85-e28239e9222a">    
+<img width="280" alt="calculator" src="https://github.com/user-attachments/assets/a359c56f-9ee4-4268-a2a4-c8d3cfdc31b1">    
