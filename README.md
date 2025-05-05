@@ -36,7 +36,11 @@ flutter run
 - Save image to gallery
 - Blur detection for better image quality
 - First-time onboarding tutorial with highlights
-- Localization support (English + Turkish) 
+- Localization support (English + Turkish)
+
+# 📱 App APK Link;
+
+```https://drive.google.com/file/d/1yr3X7smnSny4g5C7MMgWF81xdmkr5BRx/view?usp=sharing```
 
 # Screenshots
 <img width="280" alt="calculator" src="https://github.com/user-attachments/assets/d7c3021f-5ce3-4b51-ac85-e28239e9222a">    
