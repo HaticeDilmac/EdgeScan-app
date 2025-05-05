@@ -27,7 +27,7 @@ flutter gen-l10n
 
 # 4. Run the app on a device
 flutter run
-
+```
 
 ## Features
 
